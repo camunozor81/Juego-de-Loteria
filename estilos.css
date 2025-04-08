@@ -11,7 +11,7 @@ header {
     padding: 1rem;
 }
 
-.casa, .formulario, .contacto {
+.casa, .metodo, .formulario, .contacto, .legal {
     background-color: white;
     margin: 20px auto;
     padding: 20px;
@@ -23,7 +23,7 @@ h2 {
     color: #4CAF50;
 }
 
-.cta-button { /* Estilo para "Haz clic aquí" */
+.cta-button {
     display: inline-block;
     padding: 10px 20px;
     background-color: #ff4444; /* Rojo */
@@ -33,7 +33,7 @@ h2 {
 }
 
 .cta-button:hover {
-    background-color: #cc0000; /* Rojo más oscuro */
+    background-color: #cc0000;
 }
 
 .formulario input {
@@ -47,7 +47,7 @@ h2 {
 .formulario button {
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50; /* Verde */
+    background-color: #4CAF50;
     color: white;
     border: none;
     border-radius: 5px;
@@ -55,7 +55,7 @@ h2 {
 }
 
 .formulario button:hover {
-    background-color: #45a049; /* Verde más oscuro */
+    background-color: #45a049;
 }
 
 footer {
