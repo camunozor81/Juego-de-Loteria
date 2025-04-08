@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <meta charset="UTF-8"> <!-- Para que las letras en español se vean bien -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Para que se vea bien en teléfonos -->
     <title>Técnica CAMO - Gana Más</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -13,15 +15,17 @@
     <div class="casa">
         <h2>Bienvenido</h2>
         <p>¡Únete por $13 al año para ganar lotería!</p>
-        <button>Haz clic aquí</button>
+        <a href="#formulario" class="cta-button">Haz clic aquí</a> <!-- Cambiado a enlace que lleva al formulario -->
     </div>
 
-    <div class="formulario">
+    <div id="formulario" class="formulario"> <!-- Añadido ID para que el enlace funcione -->
         <h2>Escribe tus datos</h2>
-        <input type="text" placeholder="Tu nombre">
-        <input type="tel" placeholder="Tu celular">
-        <input type="email" placeholder="Tu correo">
-        <button>Enviar</button>
+        <form id="registrationForm"> <!-- Añadido form con ID para el JavaScript -->
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="tel" placeholder="Tu celular" pattern="\+57[0-9]{10}" required> <!-- Validación para celular colombiano -->
+            <input type="email" placeholder="Tu correo" required>
+            <button type="submit">Enviar</button> <!-- Tipo submit para activar el formulario -->
+        </form>
     </div>
 
     <div class="contacto">
