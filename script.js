@@ -1,14 +1,15 @@
 document.getElementById('registrationForm').addEventListener('submit', function(e) {
-    e.preventDefault(); // No envíes el formulario todavía
+    e.preventDefault(); // No envía el formulario a ningún lado todavía
 
-    // Simulamos que verificamos si es mayor de edad
-    let edad = prompt("¿Cuántos años tienes?"); // Pregunta simple para niños
-    if (edad < 18) {
-        alert("Lo siento, debes ser mayor de 18 años para jugar.");
+    let nombre = document.querySelector('input[placeholder="Tu nombre"]').value;
+    let celular = document.querySelector('input[placeholder="Tu celular"]').value;
+    let correo = document.querySelector('input[placeholder="Tu correo"]').value;
+
+    if (nombre && celular && correo) {
+        alert("¡Gracias, " + nombre + "! Te contactaremos pronto via WhatsApp.");
     } else {
-        alert("¡Genial! Te contactaremos pronto via WhatsApp.");
+        alert("Por favor, completa todos los campos.");
     }
 
-    // Limpiamos el formulario
-    this.reset();
+    this.reset(); // Limpia el formulario
 });
