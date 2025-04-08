@@ -5,14 +5,14 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif; /* Fuente moderna */
-    background: linear-gradient(135deg, #1a1a1a, #4A148C); /* Fondo futurista negro a morado */
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1a1a1a, #4A148C);
     color: #fff;
     line-height: 1.6;
 }
 
 header {
-    background: #FFD700; /* Dorado brillante */
+    background: #FFD700;
     padding: 1rem;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     position: sticky;
@@ -29,8 +29,8 @@ nav {
 }
 
 .logo h1 {
-    font-family: 'Orbitron', sans-serif; /* Fuente futurista */
-    color: #1B5E20; /* Verde oscuro */
+    font-family: 'Orbitron', sans-serif;
+    color: #1B5E20;
     font-size: 2.5rem;
 }
 
@@ -57,22 +57,22 @@ nav ul a {
 }
 
 nav ul a:hover {
-    color: #FF5252; /* Rojo vibrante */
-    transform: scale(1.1); /* Crece al pasar el ratón */
+    color: #FF5252;
+    transform: scale(1.1);
 }
 
 .hero, .metodo, .formulario, .contacto, .legal {
     max-width: 900px;
     margin: 2rem auto;
     padding: 2rem;
-    background: rgba(255, 255, 255, 0.9); /* Blanco translúcido */
+    background: rgba(255, 255, 255, 0.9);
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     color: #333;
 }
 
 .hero {
-    background: linear-gradient(45deg, #FFD700, #4CAF50); /* Dorado a verde */
+    background: linear-gradient(45deg, #FFD700, #4CAF50);
     text-align: center;
     color: white;
 }
@@ -90,10 +90,10 @@ nav ul a:hover {
 .cta-button, .whatsapp-button {
     display: inline-block;
     padding: 15px 30px;
-    background: #FF5252; /* Rojo brillante */
+    background: #FF5252;
     color: white;
     text-decoration: none;
-    border-radius: 50px; /* Muy redondeado */
+    border-radius: 50px;
     font-weight: 700;
     box-shadow: 0 5px 15px rgba(255, 82, 82, 0.5);
     transition: transform 0.3s, box-shadow 0.3s;
@@ -108,7 +108,7 @@ nav ul a:hover {
     width: 100%;
     padding: 12px;
     margin: 10px 0;
-    border: 2px solid #4A148C; /* Morado */
+    border: 2px solid #4A148C;
     border-radius: 10px;
     font-size: 1.1rem;
     background: #fff;
@@ -118,8 +118,8 @@ nav ul a:hover {
 .formulario button {
     width: 100%;
     padding: 15px;
-    background: #FFD700; /* Dorado */
-    color: #1B5E20; /* Verde oscuro */
+    background: #FFD700;
+    color: #1B5E20;
     border: none;
     border-radius: 10px;
     font-weight: 700;
@@ -130,20 +130,19 @@ nav ul a:hover {
 }
 
 .formulario button:hover {
-    background: #FFC107; /* Dorado más claro */
+    background: #FFC107;
     transform: translateY(-3px);
 }
 
 footer {
-    background: #1B5E20; /* Verde oscuro */
+    background: #1B5E20;
     color: white;
     text-align: center;
     padding: 1.5rem;
     margin-top: 2rem;
-    border-top: 5px solid #FFD700; /* Borde dorado */
+    border-top: 5px solid #FFD700;
 }
 
-/* Para teléfonos */
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
