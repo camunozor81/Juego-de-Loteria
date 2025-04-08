@@ -1,51 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8"> <!-- Para que las letras en español se vean bien -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Para teléfonos -->
-    <title>Técnica CAMO - Gana Más</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Técnica CAMO - Gana Más con Carlos Andrés Muñoz Ordóñez</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Fuente profesional -->
 </head>
 <body>
     <header>
-        <h1>Técnica CAMO</h1>
-        <p>Por Carlos Andrés Muñoz Ordóñez</p>
+        <nav>
+            <div class="logo">
+                <h1>Técnica CAMO</h1>
+                <p>Por Carlos Andrés Muñoz Ordóñez</p>
+            </div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#metodo">Cómo Funciona</a></li>
+                <li><a href="#formulario">Únete</a></li>
+                <li><a href="#legal">Términos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <div class="casa">
-        <h2>Bienvenido</h2>
-        <p>¡Únete por $13 al año para ganar lotería!</p>
-        <a href="#formulario" class="cta-button">Haz clic aquí</a>
-    </div>
+    <section id="inicio" class="hero">
+        <h2>Bienvenido a Técnica CAMO</h2>
+        <p>Aumenta tus posibilidades de ganar lotería por solo $13 al año.</p>
+        <a href="#formulario" class="cta-button">¡Únete Ahora!</a>
+    </section>
 
-    <!-- Nueva sección: Método de Juego -->
-    <div class="metodo">
+    <section id="metodo" class="metodo">
         <h2>¿Cómo funciona la Técnica CAMO?</h2>
-        <p>La Técnica CAMO, creada por Carlos Andrés Muñoz Ordóñez, organiza grupos de personas para jugar todas las combinaciones posibles de lotería o chance. Por ejemplo, en un chance de 3 números (000-999), 200 personas reciben 5 números cada una, cubriendo los 1,000 posibles. Así, ¡siempre hay un ganador en el grupo! Es legal, fácil y te da más chances de ganar.</p>
-    </div>
+        <p>La Técnica CAMO, creada por Carlos Andrés Muñoz Ordóñez, organiza grupos para cubrir todas las combinaciones posibles de lotería o chance. Por ejemplo, en un chance de 3 números (000-999), 200 personas reciben 5 números cada una, asegurando un ganador en el grupo. Es legal, efectivo y te da más oportunidades de ganar.</p>
+    </section>
 
-    <div id="formulario" class="formulario">
-        <h2>Escribe tus datos</h2>
+    <section id="formulario" class="formulario">
+        <h2>Únete al Juego</h2>
         <form id="registrationForm">
             <input type="text" placeholder="Tu nombre" required>
-            <input type="tel" placeholder="Tu celular" pattern="\+57[0-9]{10}" required>
+            <input type="tel" placeholder="Tu celular (ej. +573001234567)" pattern="\+57[0-9]{10}" required>
             <input type="email" placeholder="Tu correo" required>
-            <button type="submit">Enviar</button>
+            <button type="submit">Enviar Registro</button>
         </form>
-    </div>
+    </section>
 
-    <div class="contacto">
-        <p>Habla con nosotros en WhatsApp: <a href="https://chat.whatsapp.com/Kg6y79NWfQY8UyIBeexjng">Haz clic aquí</a></p>
-    </div>
+    <section id="contacto" class="contacto">
+        <h2>Contáctanos</h2>
+        <p>Habla con nosotros en WhatsApp: <a href="https://chat.whatsapp.com/Kg6y79NWfQY8UyIBeexjng" class="whatsapp-button">Haz clic aquí</a></p>
+    </section>
 
-    <!-- Nueva sección: Términos Legales -->
-    <div class="legal">
+    <section id="legal" class="legal">
         <h2>Términos Legales</h2>
-        <p>Al usar Técnica CAMO, aceptas que organizamos grupos para jugar lotería, pero no garantizamos que ganes. Cada persona juega por su cuenta y no comparte premios. Tus datos (nombre, celular, correo) se guardan seguros y solo los usamos para enviarte números, según la Ley 1581 de 2012 de Colombia. Esto es legal y no somos una casa de apuestas. Si tienes dudas, escribe a nuestro WhatsApp.</p>
-    </div>
+        <p>Al unirte a Técnica CAMO, aceptas que organizamos grupos para jugar lotería sin garantizar ganancias. Cada participante juega por su cuenta y conserva su premio. Tus datos se protegen bajo la Ley 1581 de 2012 (Colombia) y solo se usan para enviarte números. No somos una casa de apuestas, solo te ayudamos a organizarte. Dudas? Contáctanos en WhatsApp.</p>
+    </section>
 
     <footer>
-        <p>© 2025 Técnica CAMO</p>
+        <p>© 2025 Técnica CAMO - Desarrollado por Carlos Andrés Muñoz Ordóñez</p>
     </footer>
 
     <script src="script.js"></script>
