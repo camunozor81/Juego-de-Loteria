@@ -1,46 +1,66 @@
 body {
-    background-color: lightgreen; /* Color verde claro como la hierba */
-    font-family: 'Arial', sans-serif; /* Letras fáciles de leer */
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
 }
 
 header {
-    background-color: darkgreen; /* Tejado verde oscuro */
-    color: white; /* Letras blancas */
-    text-align: center; /* Todo centrado */
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    text-align: center;
+    padding: 1rem;
 }
 
 .casa, .formulario, .contacto {
-    background-color: white; /* Paredes blancas */
-    padding: 20px; /* Espacio adentro */
-    margin: 20px; /* Espacio afuera */
-    border-radius: 10px; /* Esquinas redondeadas */
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 10px;
 }
 
-button {
-    background-color: red; /* Botón rojo para destacar */
+h2 {
+    color: #4CAF50;
+}
+
+.cta-button { /* Estilo para "Haz clic aquí" */
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4444; /* Rojo */
     color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #cc0000; /* Rojo más oscuro */
+}
+
+.formulario input {
+    width: 100%;
     padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.formulario button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; /* Verde */
+    color: white;
     border: none;
     border-radius: 5px;
-    cursor: pointer; /* Muestra una manita cuando pasas el ratón */
+    cursor: pointer;
 }
 
-button:hover {
-    background-color: darkred; /* Cambia a rojo oscuro cuando pasas el ratón */
+.formulario button:hover {
+    background-color: #45a049; /* Verde más oscuro */
 }
 
-a {
-    color: blue; /* Enlaces azules para WhatsApp y Facebook */
-    text-decoration: none; /* Sin subrayado */
-}
-
-a:hover {
-    color: darkblue; /* Azúl más oscuro al pasar el ratón */
-}
-
-/* Para móviles */
-@media (max-width: 600px) {
-    .casa, .formulario, .contacto {
-        margin: 10px; /* Menos espacio en pantallas pequeñas */
-    }
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
 }
